@@ -38,7 +38,6 @@ export default {
     async mounted() {
         let numberOfCommits = 10;
         this.transformData(numberOfCommits);
-        debugger;
     },
     methods: {
         open(commit) {
@@ -69,7 +68,3 @@ export default {
     },
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
