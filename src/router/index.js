@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 const routes = [
     {
         path: '/',
-        name: 'MainCommitView',
+        name: 'MainView',
         component: Main
     }
 ];
